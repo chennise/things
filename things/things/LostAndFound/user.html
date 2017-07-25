@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>一物一码</title>
+	<meta author="chenhanming" time="2016-04-12">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">  
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/user.css">
+	<script src="js/jquery-2.1.4.min.js"></script>
+
+</head>
+<body>
+	<div class="header" id="header">
+		<div class="headerNav">
+			<div class="wrap">
+				<div class="address clearfix">
+					<div class="f-fl">
+						<p>你好，欢迎来到 <b>一物一码</b> !</p>
+					</div>
+					<div class="f-fr logRes">
+						<ul style="display:block" class="logResList clearfix">
+							<li><a href="javascript:;" id="signIn">登录</a></li>
+							<li><a href="javascript:;" id="register">注册</a></li>
+						</ul>
+						<div class="userStation" style="display:none">
+							<p>欢迎你：</p>
+							<span class="NavTopUserName">啊标叔</span>
+							<a href="javascript:;" class="logOut">[登出]</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ad clearfix">
+			<img src="img/logo.png" alt="" class="f-fl" />
+			<div class="navBar f-fr">
+				<ul class="navList">
+					<li class="navItem"><a href="index.html">首页</a></li>
+					<li class="navItem"><a href="comment.html">消息评论</a></li>
+					<li class="navItem"><a href="user.html">个人信息</a></li>
+					<li class="navItem"><a href="about.html">关于我们</a></li>
+					<li class="navItem"><a href="javascript:void();" class="releaseMes">发布消息</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="wrap">
+			<hr>
+		</div>
+		<div class="navBarMain" id="navBarMain" style="display:none">
+			<div class="wrap">
+				<ul class="navList clearfix">
+					<li class="navItem"><a href="index.html">首页</a></li>
+					<li class="navItem"><a href="comment.html">消息评论</a></li>
+					<li class="navItem"><a href="user.html">个人信息</a></li>
+					<li class="navItem"><a href="about.html">关于我们</a></li>
+					<li class="navItem"><a href="javascript:;" class="releaseMes">发布消息</a></li>
+				</ul>	
+
+			</div>
+		</div>
+	</div>
+	<div class="mainBody" id="mainBody">
+		<div class="wrap clearfix">
+			<div class="userCen-mainBody">
+				<div class="userCenMB-userInfor clearfix publicPart">
+					<div class="f-fl UCMBtitle">
+						<h2>用户信息</h2>
+					</div>
+					
+					<form id="formImg" action="/things/MeJson/changeme" enctype='multipart/form-data' method='post'>
+					<div class="f-fl upLoadUserImg">
+						<img src="img/userImg.png" alt="" class="userImg">
+							<input type="file" value="上传图片"class="uploadUserImg uploadUserImgCtrl" name="pic"  style="display:none" />
+							<input type="submit" id="" value="上传头像" class="btnPartSubmitUserMes"  style="display:none"/>
+					
+					</div>
+					<div class="f-fl">
+					
+						<ul class="userInforList">
+							<li class="userInforItem">
+								<p>昵称：</p>
+								<span id="nickname" >charming</span>
+								<input type="text" value="" class="edit" style="display:none" name='name'>
+							</li>
+							<li class="userInforItem">
+								<p>手机号：</p>
+								<span id="contactPhone">12345678910</span>
+								<input type="text" value="" class="edit" style="display:none" name='phone'>
+							</li>
+							<li class="userInforItem">
+								<p>QQ：</p>
+								<span id="contactQQ">12345678</span>
+								<input type="text" value="" class="edit" style="display:none" name='qq'>
+							</li>
+							<li class="userInforItem">
+								<p>微信：</p>
+								<span id="contactWechat">12345678</span>
+								<input type="text" value="" class="edit" style="display:none" name='wechat'>
+							</li>
+							<li class="userInforItem">
+								<p>邮箱：</p>
+								<span id="contactEmail">12345678@qq.com</span>
+								<input type="text" value="" class="edit" style="display:none" name='email'>
+							</li>
+						
+						
+						</ul>
+					</div>
+					</form>
+					<div class="f-fl">
+						<a href="javascript:;" class="editUserMes">修改信息</a>
+					</div>
+				</div>
+				<hr class="hr">
+				<div class="userCenMB-top clearfix publicPart">
+					<div class="f-fl UCMBtitle">
+						<h2>密码修改</h2>
+					</div>
+					<div class="f-fl">
+						<form action="">
+							<p class="changePW oldPW"><span>旧密码：</span><input type="password" id="currentPasswd"></p>
+							<p class="changePW newPW"><span>新密码：</span><input type="password" id="newPasswd"><i class="errTip">密码长度为8~16个字符</i></p>
+							<p class="changePW newPW"><span>再次输入新密码：</span><input type="password" id="passwdCheck"><i class="errTip">两次密码不一样</i></p>
+						</form>
+					</div>
+					<div class="f-fl">
+						<a href="javascript:;" class="conBtn" id="changePwBtn">确定</a>
+					</div>
+				</div>
+				<hr class="hr">
+				<div class="goods publicPart clearfix">
+					<div class="f-fl UCMBtitle">
+						<h2>我的物品</h2>
+					</div>
+					<div class="f-fl goodsList">
+						<div class="mediaBox">
+							<ul class="mediaList clearfix" id="mediaList">
+								<li class="mediaItem clearfix" data-id='123'>
+									<div class="wrap">
+										<div class="f-fl imgBox">
+											<img src="img/cctv.jpg" alt="pic" class="mediaImg">
+											
+										</div>
+										<div class="f-fl txtBox">
+											<h2 class="mediaTitle">手机</h2>
+											<p class="mediaNum">ID号：001</p>
+											<p class="mediaExplain">这是介绍这是介绍这是介绍这是介绍这是介绍这是介绍这是介绍这是介绍绍这是介绍这是介绍绍这是介绍这是介绍这是介绍绍这是介绍这是介绍绍这是介绍这是介绍这是介绍绍这是介绍这是介绍绍这是</p>
+										</div>
+
+										
+									</div>
+								</li>
+								<li class="mediaItem clearfix">
+									<div class="wrap">
+										<div class="f-fl imgBox">
+											<img src="img/cctv.jpg" alt="pic" class="mediaImg">
+											
+										</div>
+										<div class="f-fl txtBox">
+											<h2 class="mediaTitle">手机</h2>
+											<p class="mediaNum">ID号：002</p>
+											<p class="mediaExplain">这是介绍这是介绍这是介绍这是介绍这是介绍这是介绍这是介绍这是介绍绍这是介绍这是介绍绍这是介绍这是介绍这是介绍绍这是介绍这是介绍绍这是介绍这是介绍这是介绍绍这是介绍这是介绍绍这是</p>
+										</div>
+
+										
+									</div>
+								</li>
+								<li class="mediaItem clearfix">
+									<div class="wrap">
+										<div class="f-fl imgBox">
+											<img src="img/cctv.jpg" alt="pic" class="mediaImg">
+											
+										</div>
+										<div class="f-fl txtBox">
+											<h2 class="mediaTitle">手机</h2>
+											<p class="mediaNum">ID号：003</p>
+											<p class="mediaExplain">这是介绍这是介绍这是介绍这是介绍这是介绍这是介绍这是介绍这是介绍绍这是介绍这是介绍绍这是介绍这是介绍这是介绍绍这是介绍这是介绍绍这是介绍这是介绍这是介绍绍这是介绍这是介绍绍这是</p>
+										</div>
+
+										
+									</div>
+								</li>
+								<li class="mediaItem clearfix">
+									<div class="wrap">
+										<div class="f-fl imgBox">
+											<img src="img/cctv.jpg" alt="pic" class="mediaImg">
+											
+										</div>
+										<div class="f-fl txtBox">
+											<h2 class="mediaTitle">手机</h2>
+											<p class="mediaNum">ID号：004</p>
+											<p class="mediaExplain">这是介绍这是介绍这是介绍这是介绍这是介绍这是介绍这是介绍这是介绍绍这是介绍这是介绍绍这是介绍这是介绍这是介绍绍这是介绍这是介绍绍这是介绍这是介绍这是介绍绍这是介绍这是介绍绍这是</p>
+										</div>
+
+										
+									</div>
+								</li>
+								<li class="mediaItem clearfix">
+									<div class="wrap">
+										<div class="f-fl imgBox">
+											<img src="img/cctv.jpg" alt="pic" class="mediaImg">
+											
+										</div>
+										<div class="f-fl txtBox">
+											<h2 class="mediaTitle">手机</h2>
+											<p class="mediaNum">ID号：005</p>
+											<p class="mediaExplain">这是介绍这是介绍这是介绍这是介绍这是介绍这是介绍这是介绍这是介绍绍这是介绍这是介绍绍这是介绍这是介绍这是介绍绍这是介绍这是介绍绍这是介绍这是介绍这是介绍绍这是介绍这是介绍绍这是</p>
+										</div>
+
+										
+									</div>
+								</li>
+								<li class="mediaItem clearfix">
+									<div class="wrap">
+										<div class="f-fl imgBox">
+											<img src="img/cctv.jpg" alt="pic" class="mediaImg">
+											
+										</div>
+										<div class="f-fl txtBox">
+											<h2 class="mediaTitle">手机</h2>
+											<p class="mediaNum">ID号：006</p>
+											<p class="mediaExplain">这是介绍这是介绍这是介绍这是介绍这是介绍这是介绍这是介绍这是介绍绍这是介绍这是介绍绍这是介绍这是介绍这是介绍绍这是介绍这是介绍绍这是介绍这是介绍这是介绍绍这是介绍这是介绍绍这是</p>
+										</div>
+
+										
+									</div>
+								</li>
+								<li class="mediaItem clearfix">
+									<div class="wrap">
+										<div class="f-fl imgBox">
+											<img src="img/cctv.jpg" alt="pic" class="mediaImg">
+											
+										</div>
+										<div class="f-fl txtBox">
+											<h2 class="mediaTitle">手机</h2>
+											<p class="mediaNum">ID号：007</p>
+											<p class="mediaExplain">这是介绍这是介绍这是介绍这是介绍这是介绍这是介绍这是介绍这是介绍绍这是介绍这是介绍绍这是介绍这是介绍这是介绍绍这是介绍这是介绍绍这是介绍这是介绍这是介绍绍这是介绍这是介绍绍这是</p>
+										</div>
+
+										
+									</div>
+								</li>
+								<li class="mediaItem clearfix">
+									<div class="wrap">
+										<div class="f-fl imgBox">
+											<img src="img/cctv.jpg" alt="pic" class="mediaImg">
+											
+										</div>
+										<div class="f-fl txtBox">
+											<h2 class="mediaTitle">手机</h2>
+											<p class="mediaNum">ID号：008</p>
+											<p class="mediaExplain">这是介绍这是介绍这是介绍这是介绍这是介绍这是介绍这是介绍这是介绍绍这是介绍这是介绍绍这是介绍这是介绍这是介绍绍这是介绍这是介绍绍这是介绍这是介绍这是介绍绍这是介绍这是介绍绍这是</p>
+										</div>
+
+										
+									</div>
+								</li>
+								<li class="mediaItem clearfix">
+									<div class="wrap">
+										<div class="f-fl imgBox">
+											<img src="img/cctv.jpg" alt="pic" class="mediaImg">
+											
+										</div>
+										<div class="f-fl txtBox">
+											<h2 class="mediaTitle">手机</h2>
+											<p class="mediaNum">ID号：009</p>
+											<p class="mediaExplain">这是介绍这是介绍这是介绍这是介绍这是介绍这是介绍这是介绍这是介绍绍这是介绍这是介绍绍这是介绍这是介绍这是介绍绍这是介绍这是介绍绍这是介绍这是介绍这是介绍绍这是介绍这是介绍绍这是</p>
+										</div>
+
+										
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer" id="footer">
+		<div class="wrap">
+			<p class="copyright">
+				Copyright ©20015-2025&nbsp;&nbsp;&nbsp;BY --&nbsp;Charming
+			</p>
+		</div>
+	</div>
+	<div class="mark" id="mark" style="display:none"></div>
+
+	<!-- 登录框 -->
+	<div class="signInBox ctrlBox" style="display:none">
+		<h1 class="ctrlBoxTitle">登录</h1>
+		<div class="input regUserName">
+			<input type="text" placeholder="账户名" id="regUsesName">
+			<span class="icon">
+				<img src="img/user_icon.png" alt="pic">
+			</span>
+			<!-- 错误提示 -->
+			<p class="errTip">用户名不能为空！</p>
+		</div>
+		<div class="input password">
+			<input type="password" placeholder="密码" id="SignInUserPassword">
+			<span class="icon">
+				<img src="img/iconfont-mima.png" alt="pic">
+			</span>
+		</div>
+		<div class="txtPart">
+			<span class="checkbox" id="checkbox1">
+				<img id="checkImg1" src="img/iconfont-svg15.png" alt="pic" style="display:none" class="checkImg">
+			</span>
+			<p class="agree" id="agree">记住我的账号</p>
+		</div>
+		<div class="btnPart">
+			<a href="javascript:;" id="signInBtn">登&nbsp;录</a>
+		</div>
+		<span class="closePart">X</span>
+	</div>
+	<!-- 注册框 -->
+	<div class="registerBox ctrlBox" style="display:none">
+		<h1 class="ctrlBoxTitle">登录</h1>
+		<div class="input regUserName">
+			<input type="text" placeholder="账户名" id="regUsesName">
+			<span class="icon">
+				<img src="img/user_icon.png" alt="pic">
+			</span>
+			<!-- 错误提示 -->
+			<p class="errTip">用户名不能为空！</p>
+		</div>
+		<div class="input password">
+			<input type="password" placeholder="密码" id="regPW">
+			<span class="icon">
+				<img src="img/iconfont-mima.png" alt="pic">
+			</span>
+			<!-- 错误提示 -->
+			<p class="errTip">密码长度为8~16个字符</p>
+		</div>
+		<div class="input confirmPW">
+			<input type="password" placeholder="确认密码" id="regCheckPW">
+			<span class="icon">
+				<img src="img/iconfont-mima.png" alt="pic">
+			</span>
+			<!-- 错误提示 -->
+			<p class="errTip">两次密码不一样</p>
+		</div>
+		<div class="txtPart">
+			<span class="checkbox" id="checkbox2">
+				<img id="checkImg2" src="img/iconfont-svg15.png" alt="pic" style="display:none" class="checkImg">
+			</span>
+			<p class="agree">我已阅读并接受<a href="#">《用户协议》</a></p>
+		</div>
+		<div class="btnPart">
+			<a href="javascript:;" id="registerBtn">注册</a>
+		</div>
+		<span class="closePart">X</span>
+	</div>
+	
+	
+	<!-- 物品信息框 -->
+	<div class="goodsMes ctrlBox goodsMesSmall" style="display:none">
+		<h1 class="ctrlBoxTitle">物品详情</h1>
+		
+		<form id="formImg" action="/things/MeJson/good?act=change" enctype='multipart/form-data' method='post'>
+		<p class="goodsMesTxtBox goodsMesTxtBoxCan clearfix">
+			<span class="goodsMesTxtTitle">物品名称：</span>
+			<i class="goodsMesTxt goodsMesTxtName goodsMesTxtCan">饭卡</i>
+			<input type="text"  class="goodsInputMes goodsInputMesName"  style="display:none" name = "name">
+			<style>
+			.goodsInputMes{
+				font-size:14px;
+				float:left;
+			}
+			
+			</style>
+		</p>
+		<p class="goodsMesTxtBox clearfix">
+			<span class="goodsMesTxtTitle">主人联系方式：</span>
+			<i class="goodsMesTxt goodsMesTxtContact">phone:12345678910<br>qq:12346<br>wechat:1234<br>email:111@qq.com</i>
+		</p>
+
+		<p class="goodsMesTxtBox goodsMesTxtBoxCan clearfix">
+			<span class="goodsMesTxtTitle">备注：</span>
+			<i class="goodsMesTxt goodsMesTxtNote goodsMesTxtCan" >这东西对我非常非常重要，捡到的人我将重金悬赏100万！！</i>
+			<textarea name="remark" id="" cols="30" rows="10" class="goodsInputMes goodsInputMesArea"  style="display:none">ss</textarea>
+		</p>
+		<div class="goodsImg">
+			<img src="img/page4_0.png" alt="" class="goodsImgItem">
+			<input type="hidden" name="id" value='' class="goodsMesEdit">
+				<input type="file" value="上传图片"class="uploadUserImg uploadUserImgGoods" name="pic" style="display:none">
+				<input type="submit" id="" value="提交" class="btnPartSubmit SubmitTrigger" style="display:none" />
+				
+			
+		</div>
+		</form>
+		<div class="goodsBtnPart clearfix">
+			<a href="javascript:;" class="f-fl goodsMesCon" >修改物品信息</a>
+			<a href="javascript:;" class="f-fr goodsMesDel" >删除物品</a>
+		</div>
+		<span class="closePart">X</span>
+	</div>
+	<!-- 发布信息框 -->
+	<div class="goodsMes ctrlBox goodsMesBig" style="display:none">
+		<h1 class="ctrlBoxTitle">物品详情</h1>
+		<form id="form1" action="/things/IndexJson/release" enctype='multipart/form-data' method='post'>
+			<p class="goodsMesTxtBox clearfix goodMesEvent">
+				<span class="goodsMesTxtTitle">类型：</span>
+				<input type="radio" name="action" id="answerEvent" value="0"><label for="answerEvent">招领启事</label>
+				<input type="radio" name="action" id="findEvent" value="1" checked="checked"><label for="findEvent">寻物启事</label>
+			</p>
+			<p class="goodsMesTxtBox clearfix">
+				<span class="goodsMesTxtTitle">悬赏金额：</span>
+				<input type="text" placeholder="0.00"  class="mesInput goodMesMoney"  name="money" id="money" />
+			</p>
+			<p class="goodsMesTxtBox clearfix">
+				<span class="goodsMesTxtTitle">内容：</span>
+				<textarea name="content" id="" cols="30" rows="10" placeholder="物品描述" class="goodMesTextarea" /></textarea>
+			</p>
+			<p class="goodsMesTxtBox clearfix">
+				<span class="goodsMesTxtTitle">上传图片：</span>
+				<input type="file" value="上传图片" id="pic"  class="mesInput goodMesuploadFile" name="pic" >
+			</p>
+			<div class="btnPart">
+				<p><input type="submit" id="" value="发布" class="btnPartSubmit" /></p>
+			</div>
+		</form>
+		<span class="closePart">X</span>
+	</div>
+	<script src="js/index.js"></script>
+	<script src="js/user.js"></script>
+</body>
+</html>

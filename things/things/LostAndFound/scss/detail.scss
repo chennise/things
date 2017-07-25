@@ -1,0 +1,265 @@
+.detail{
+	margin:{
+		top:40px;
+		bottom:50px;
+	}
+	.wrap{
+		border:{
+			top: 1px solid #C2D5E3;
+			right: 1px solid #C2D5E3;
+		}
+		.mesTop{
+			width: 100%;
+			min-height: 36px;
+
+
+			.see{
+				width: 80px;
+				border-right: 1px solid #C2D5E3;
+				text-align: right;
+				padding-right: 10px;
+			}
+			.react{
+				padding-left: 10px;
+				width: 75px;
+			}
+			.leftArea{
+				height: 36px;
+			}
+			.seeAndRea{
+				height: 20px;
+				line-height: 20px;
+				font-size: 14px;
+				margin-top: 8px;
+
+				p{
+					float: left;
+					white-space: nowrap;
+				    overflow: hidden;
+				    text-overflow: ellipsis;
+
+					span{
+						color: #F60;
+						padding-left:5px;
+					}
+				}
+			}
+		}
+		.bb3{
+			height:3px;
+			width: 100%;
+			background:#c2d5e3;
+			border:none;
+			margin: 0;
+			padding: 0;
+		}
+		.leftArea{
+			background: #E5EDF2;
+			width: 180px;
+			border:{
+				left:1px solid #C2D5E3; 
+				bottom:1px solid #C2D5E3; 
+			}
+			
+			.userName{
+				height:16px;
+				width: 160px;
+				text-align: center;
+				line-height: 16px;
+				padding:10px;
+				border-bottom:1px dashed #CDCDCD;
+					white-space: nowrap;
+				    overflow: hidden;
+				    text-overflow: ellipsis;
+
+				a{
+						color: #666;
+				}
+			}
+			.userImg{
+				height: 120px;
+				width: 120px;
+				padding:10px;
+				background: #fff;
+				border-radius: 5px;
+				margin: 20px;
+				img{
+					height: 120px;
+					width: 120px;
+				}
+			}
+			.userMesBox{
+				padding-bottom:30px;
+				p{
+					padding:5px;
+					// height:14px;
+					line-height: 14px;
+				}
+			}
+		}
+		.rightArea{
+			width: 1018px;
+			border-left:1px solid #C2D5E3; 
+			border-bottom:1px solid #C2D5E3; 
+			position: relative;
+
+			.mesTitle{
+				height: 16px;
+				line-height: 16px;
+				padding: 10px;
+				p{
+					float: left;
+					font-size: 16px;
+					font-weight: bold;
+					width: 700px;
+					white-space: nowrap;
+				    overflow: hidden;
+				    text-overflow: ellipsis;
+				}
+				span{
+					float: right;
+					font-size: 12px;
+					color: #ddd	;
+				}
+			}
+			.goodsMesTxtBoxWrap{
+				padding:30px;
+				// border-left: 1px solid #C2D5E3;
+
+				.goodsMesTxtBox{
+					padding: 5px;
+					line-height: 30px;
+					border-bottom: 1px solid #C2D5E3;
+
+					&:last-child{
+						border-bottom:0;
+					}
+					.goodsMesTxtTitle{
+						float: left;
+						width: 160px;
+
+					}
+					.goodsMesTxt{
+						max-width: 780px;
+						float: left;
+					}
+
+					.goodsImgList{
+						margin-top: 20px;
+						width: 780px;
+						text-align: center;
+
+						img{
+							display: inline-block;	
+							margin-right: 20px;
+						}
+					}
+				}
+			}
+
+			.commentBox{
+				padding:50px 30px;
+
+
+			}
+			.commentTime{
+				position: absolute;
+				top: 10px;
+				right:10px;		
+				font-size:12px;
+				color: #ccc;
+
+			}
+		}
+
+		
+
+	}
+	.mt50{
+		margin-top: 50px;
+	}
+	.mesBottom{
+		
+		.minH240{
+			min-height: 240px;
+		}
+
+		.commentArea{
+
+			.comInputArea{
+				width: 800px;
+				height:130px;
+				margin: 30px 109px 10px ;
+				resize: none;
+				border:1px solid #ccc;	
+				padding: 10px;
+				font-size: 16px;
+			}
+
+			.comInputCon{
+				height: 30px;
+				width: 80px;
+				display: block;
+				text-align: center;
+				line-height: 30px;
+				background:#f8931f;
+				color: #FFF;
+				margin-left:109px ;
+
+				&:hover{
+					background: #F892F2;
+				}
+			}
+
+		}
+
+	}
+}
+.minH335{
+	min-height: 335px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

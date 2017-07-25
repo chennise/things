@@ -1,0 +1,2221 @@
+[ 2016-04-11T15:52:29+08:00 ] ::1 /things/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017115s ]
+ERR: 非法操作:index
+
+[ 2016-04-11T15:52:37+08:00 ] ::1 /things/code/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001559s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0092s ]
+SQL: INSERT INTO `things_goods` (`url_id`) VALUES ('by7gively07fpdev') [ RunTime:0.0736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012057s ]
+
+[ 2016-04-11T15:52:49+08:00 ] ::1 /things/code/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0043s ]
+SQL: INSERT INTO `things_goods` (`url_id`) VALUES ('dwee231zakl50ozq') [ RunTime:0.0578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001728s ]
+
+[ 2016-04-11T15:52:50+08:00 ] ::1 /things/code/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001680s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0043s ]
+SQL: INSERT INTO `things_goods` (`url_id`) VALUES ('i3hb5y1uq4ureov3') [ RunTime:0.0503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003412s ]
+
+[ 2016-04-11T15:52:50+08:00 ] ::1 /things/code/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002416s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0042s ]
+SQL: INSERT INTO `things_goods` (`url_id`) VALUES ('qfe8ulb7auye6f5v') [ RunTime:0.0315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001772s ]
+
+[ 2016-04-11T15:52:51+08:00 ] ::1 /things/code/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001588s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0042s ]
+SQL: INSERT INTO `things_goods` (`url_id`) VALUES ('32745xzywsv1ivp6') [ RunTime:0.0714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003137s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003379s ]
+
+[ 2016-04-11T16:00:03+08:00 ] ::1 /things/code/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001816s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `things_goods` WHERE ( id )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2016-04-11T16:00:27+08:00 ] ::1 /things/code/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `things_goods` WHERE ( id )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001153s ]
+
+[ 2016-04-11T16:00:46+08:00 ] ::1 /things/code/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `things_goods` WHERE ( id )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001329s ]
+
+[ 2016-04-11T16:01:01+08:00 ] ::1 /things/code/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `things_goods` WHERE ( id=0 )  [ RunTime:0.0178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2016-04-11T16:01:32+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `things_goods` WHERE ( id=0 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2016-04-11T16:01:57+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id=0 )  [ RunTime:0.0926s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001290s ]
+
+[ 2016-04-11T16:02:00+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id=0 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001818s ]
+
+[ 2016-04-11T16:02:33+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id=0 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2016-04-11T16:03:27+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="0" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2016-04-11T16:04:46+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="0" )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001139s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001271s ]
+
+[ 2016-04-11T16:04:56+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2016-04-11T16:04:59+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001139s ]
+
+[ 2016-04-11T16:05:32+08:00 ] ::1 /things/code/index?id=by7gively07fpdes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdes" )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001413s ]
+
+[ 2016-04-11T16:08:07+08:00 ] ::1 /things/code/index?id=by7gively07fpdes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdes" )  [ RunTime:0.0004s ]
+
+[ 2016-04-11T16:08:17+08:00 ] ::1 /things/code/index?id=by7gively07fpdes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdes" )  [ RunTime:0.0003s ]
+
+[ 2016-04-11T16:08:23+08:00 ] ::1 /things/code/index?id=by7gively07fpdes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdes" )  [ RunTime:0.0003s ]
+
+[ 2016-04-11T16:12:35+08:00 ] ::1 /things/code/index?id=by7gively07fpdes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdes" )  [ RunTime:0.0003s ]
+
+[ 2016-04-11T16:12:36+08:00 ] ::1 /things/code/index?id=by7gively07fpdes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001533s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdes" )  [ RunTime:0.0004s ]
+
+[ 2016-04-11T16:12:40+08:00 ] ::1 /things/code/index?id=by7gively07fpdesv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdesv" )  [ RunTime:0.0004s ]
+
+[ 2016-04-11T16:12:57+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001692s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0004s ]
+SQL: SELECT `username` FROM `things_goods` WHERE ( url_id="by7gively07fpdev" ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001176s ]
+
+[ 2016-04-11T16:13:17+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0006s ]
+SQL: SELECT `username` FROM `things_goods` WHERE ( url_id="by7gively07fpdev" ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001271s ]
+
+[ 2016-04-11T16:13:27+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0004s ]
+SQL: SELECT `username` FROM `things_goods` WHERE ( url_id="by7gively07fpdev" ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001239s ]
+
+[ 2016-04-11T16:13:35+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0004s ]
+SQL: SELECT `username` FROM `things_goods` WHERE ( url_id="by7gively07fpdev" ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2016-04-11T16:13:45+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0004s ]
+SQL: SELECT `username` FROM `things_goods` WHERE ( url_id="by7gively07fpdev" ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001264s ]
+
+[ 2016-04-11T16:14:30+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001663s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0004s ]
+SQL: SELECT `username` FROM `things_goods` WHERE ( url_id="by7gively07fpdev" ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001225s ]
+
+[ 2016-04-11T16:14:37+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0005s ]
+SQL: SELECT `username` FROM `things_goods` WHERE ( url_id="by7gively07fpdev" ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2016-04-11T16:14:44+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0005s ]
+SQL: SELECT `username` FROM `things_goods` WHERE ( url_id="by7gively07fpdev" ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001128s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001246s ]
+
+[ 2016-04-11T18:14:19+08:00 ] ::1 /things/code/index?id=by7gively07fpdev%20or%201=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002089s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev or 1=1" )  [ RunTime:0.0005s ]
+
+[ 2016-04-11T18:14:56+08:00 ] ::1 /things/code/index?id=by7gively07fpdev%20or%201=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev or 1=1" )  [ RunTime:0.0004s ]
+
+[ 2016-04-11T18:29:16+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0004s ]
+SQL: SELECT `username` FROM `things_goods` WHERE ( url_id="by7gively07fpdev" ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2016-04-11T18:29:18+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0004s ]
+SQL: SELECT `username` FROM `things_goods` WHERE ( url_id="by7gively07fpdev" ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001140s ]
+
+[ 2016-04-11T18:29:28+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0004s ]
+SQL: SELECT `username` FROM `things_goods` WHERE ( url_id="by7gively07fpdev" ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001620s ]
+
+[ 2016-04-11T18:29:28+08:00 ] ::1 /things/code/s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+ERR: 非法操作:s
+
+[ 2016-04-11T18:29:33+08:00 ] ::1 /things/code/index?id=by7gively07fpdesv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdesv" )  [ RunTime:0.0004s ]
+
+[ 2016-04-11T18:29:39+08:00 ] ::1 /things/code/index?id=by7gively07fpdesv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdesv" )  [ RunTime:0.0004s ]
+
+[ 2016-04-11T18:29:42+08:00 ] ::1 /things/code/index?id=by7gively07fpdes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdes" )  [ RunTime:0.0004s ]
+
+[ 2016-04-11T18:29:44+08:00 ] ::1 /things/code/index?id=by7gively07fpdes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdes" )  [ RunTime:0.0003s ]
+
+[ 2016-04-11T18:29:47+08:00 ] ::1 /things/code/index?id=by7gively07fpdesv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdesv" )  [ RunTime:0.0004s ]
+
+[ 2016-04-11T18:29:47+08:00 ] ::1 /things/code/s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+ERR: 非法操作:s
+
+[ 2016-04-11T18:29:52+08:00 ] ::1 /things/code/index?id=by7gively07fpdesv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdesv" )  [ RunTime:0.0004s ]
+
+[ 2016-04-11T18:29:54+08:00 ] ::1 /things/code/s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+ERR: 非法操作:s
+
+[ 2016-04-11T18:29:56+08:00 ] ::1 /things/code/index?id=by7gively07fpdesv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdesv" )  [ RunTime:0.0004s ]
+
+[ 2016-04-11T18:29:58+08:00 ] ::1 /things/code/index?id=by7gively07fpdesv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdesv" )  [ RunTime:0.0004s ]
+
+[ 2016-04-11T18:30:12+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0004s ]
+SQL: SELECT `username` FROM `things_goods` WHERE ( url_id="by7gively07fpdev" ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001178s ]
+
+[ 2016-04-11T18:32:17+08:00 ] ::1 /things/code/index?id=by7gively07fpdesv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdesv" )  [ RunTime:0.0004s ]
+
+[ 2016-04-11T18:32:22+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0005s ]
+SQL: SELECT `username` FROM `things_goods` WHERE ( url_id="by7gively07fpdev" ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2016-04-11T18:32:30+08:00 ] ::1 /things/code/index?id=by7gively07fpdesv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdesv" )  [ RunTime:0.0004s ]
+
+[ 2016-04-11T18:36:11+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0003s ]
+SQL: SELECT `username` FROM `things_goods` WHERE ( url_id="by7gively07fpdev" ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2016-04-11T18:36:13+08:00 ] ::1 /things/code/index?id=by7gively07fpdesv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdesv" )  [ RunTime:0.0004s ]
+
+[ 2016-04-11T19:57:19+08:00 ] ::1 /things/code/tie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2016-04-11T19:57:19+08:00 ] ::1 /things/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2016-04-11T19:57:26+08:00 ] ::1 /things/code/index?id=by7gively07fpdesv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdesv" )  [ RunTime:0.0004s ]
+
+[ 2016-04-11T19:57:40+08:00 ] ::1 /things/IndexJson/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `things_user` WHERE ( username="biao" )  [ RunTime:0.0004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\IndexJsonController.class.php 第 54 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2016-04-11T19:57:47+08:00 ] ::1 /things/IndexJson/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `things_user` WHERE ( username="biao" )  [ RunTime:0.0004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\IndexJsonController.class.php 第 54 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001133s ]
+
+[ 2016-04-11T19:58:57+08:00 ] ::1 /things/code/index?id=by7gively07fpdesv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdesv" )  [ RunTime:0.0003s ]
+
+[ 2016-04-11T19:59:24+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0003s ]
+SQL: SELECT `username` FROM `things_goods` WHERE ( url_id="by7gively07fpdev" ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001588s ]
+
+[ 2016-04-11T20:00:01+08:00 ] ::1 /things/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-11T20:00:03+08:00 ] ::1 /things/code/index?id=by7gively07fpdesv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdesv" )  [ RunTime:0.0004s ]
+
+[ 2016-04-11T20:00:07+08:00 ] ::1 /things/code/index?id=by7gively07fpdesv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdesv" )  [ RunTime:0.0004s ]
+
+[ 2016-04-11T20:00:11+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001747s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0003s ]
+SQL: SELECT `username` FROM `things_goods` WHERE ( url_id="by7gively07fpdev" ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001409s ]
+
+[ 2016-04-11T20:00:19+08:00 ] ::1 /things/code/index?id=by7gively07fpdesv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdesv" )  [ RunTime:0.0004s ]
+
+[ 2016-04-11T20:00:57+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0003s ]
+SQL: SELECT `username` FROM `things_goods` WHERE ( url_id="by7gively07fpdev" ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001155s ]
+
+[ 2016-04-11T20:01:14+08:00 ] ::1 /things/code/index?id=by7gively07fpdesv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdesv" )  [ RunTime:0.0003s ]
+
+[ 2016-04-11T20:01:53+08:00 ] ::1 /things/code/index?id=by7gively07fpdesv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdesv" )  [ RunTime:0.0005s ]
+
+[ 2016-04-11T20:01:58+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002531s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0003s ]
+SQL: SELECT `username` FROM `things_goods` WHERE ( url_id="by7gively07fpdev" ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2016-04-11T20:02:08+08:00 ] ::1 /things/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001238s ]
+
+[ 2016-04-11T20:02:13+08:00 ] ::1 /things/code/index?id=by7gively07fpdesv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdesv" )  [ RunTime:0.0003s ]
+
+[ 2016-04-11T20:02:19+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0004s ]
+SQL: SELECT `username` FROM `things_goods` WHERE ( url_id="by7gively07fpdev" ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001158s ]
+
+[ 2016-04-11T20:02:57+08:00 ] ::1 /things/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2016-04-11T20:03:02+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0004s ]
+SQL: SELECT `username` FROM `things_goods` WHERE ( url_id="by7gively07fpdev" ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001458s ]
+
+[ 2016-04-11T20:03:22+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0003s ]
+SQL: SELECT `username` FROM `things_goods` WHERE ( url_id="by7gively07fpdev" ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001133s ]
+
+[ 2016-04-11T20:03:36+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001819s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0003s ]
+SQL: SELECT `username` FROM `things_goods` WHERE ( url_id="by7gively07fpdev" ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2016-04-11T20:03:36+08:00 ] ::1 /things/code/tie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2016-04-11T20:03:50+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0003s ]
+SQL: SELECT `username` FROM `things_goods` WHERE ( url_id="by7gively07fpdev" ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001375s ]
+
+[ 2016-04-11T20:03:50+08:00 ] ::1 /things/code/tie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001090s ]
+
+[ 2016-04-11T20:04:08+08:00 ] ::1 /things/code/tie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001184s ]
+
+[ 2016-04-11T20:04:08+08:00 ] ::1 /things/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2016-04-11T20:04:16+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0003s ]
+SQL: SELECT `username` FROM `things_goods` WHERE ( url_id="by7gively07fpdev" ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2016-04-11T20:04:16+08:00 ] ::1 /things/code/tie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2016-04-11T20:04:16+08:00 ] ::1 /things/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2016-04-11T20:04:27+08:00 ] ::1 /things/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2016-04-11T20:04:36+08:00 ] ::1 /things/IndexJson/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `things_user` WHERE ( username="biao" )  [ RunTime:0.0004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\IndexJsonController.class.php 第 54 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001175s ]
+
+[ 2016-04-11T20:04:43+08:00 ] ::1 /things/IndexJson/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `things_user` WHERE ( username="biao" )  [ RunTime:0.0004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\IndexJsonController.class.php 第 54 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001151s ]
+
+[ 2016-04-11T20:04:48+08:00 ] ::1 /things/code/index?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0006s ]
+SQL: SELECT `username` FROM `things_goods` WHERE ( url_id="by7gively07fpdev" ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001174s ]
+
+[ 2016-04-11T20:04:48+08:00 ] ::1 /things/code/tie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001481s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2016-04-11T20:08:59+08:00 ] ::1 /things/code/tie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2016-04-11T20:24:19+08:00 ] ::1 /things/MeJson/changepw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\MeJsonController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `things_user` WHERE ( username="biao" )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001507s ]
+
+[ 2016-04-11T20:24:28+08:00 ] ::1 /things/code/tie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001112s ]
+
+[ 2016-04-11T20:24:38+08:00 ] ::1 /things/codejson/tie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+ERR: 无法加载控制器:Codejson
+
+[ 2016-04-11T20:25:01+08:00 ] ::1 /things/codejson/tie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001814s ]
+ERR: 无法加载控制器:Codejson
+
+[ 2016-04-11T20:25:32+08:00 ] ::1 /things/code/tie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2016-04-11T21:06:33+08:00 ] ::1 /things/indexjson/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+ERR: 无法加载控制器:Indexjson
+
+[ 2016-04-11T21:06:42+08:00 ] ::1 /things/indexJson/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+NOTIC: [8] Undefined index: username E:\wamp\www\things\things\Home\Controller\IndexJsonController.class.php 第 43 行.
+NOTIC: [8] Undefined index: password E:\wamp\www\things\things\Home\Controller\IndexJsonController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `things_user` WHERE ( username="" )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001165s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001281s ]
+
+[ 2016-04-11T21:08:21+08:00 ] ::1 /things/indexJson/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002197s ]
+NOTIC: [8] Undefined index: username E:\wamp\www\things\things\Home\Controller\IndexJsonController.class.php 第 43 行.
+NOTIC: [8] Undefined index: password E:\wamp\www\things\things\Home\Controller\IndexJsonController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `things_user` WHERE ( username="" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001483s ]
+
+[ 2016-04-11T21:08:26+08:00 ] ::1 /things/indexJson/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+NOTIC: [8] Undefined index: username E:\wamp\www\things\things\Home\Controller\IndexJsonController.class.php 第 43 行.
+NOTIC: [8] Undefined index: password E:\wamp\www\things\things\Home\Controller\IndexJsonController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `things_user` WHERE ( username="" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001226s ]
+
+[ 2016-04-11T21:17:59+08:00 ] ::1 /things/indexJson/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+NOTIC: [8] Undefined index: username E:\wamp\www\things\things\Home\Controller\IndexJsonController.class.php 第 43 行.
+NOTIC: [8] Undefined index: password E:\wamp\www\things\things\Home\Controller\IndexJsonController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `things_user` WHERE ( username="" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2016-04-11T21:18:00+08:00 ] ::1 /things/indexJson/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+NOTIC: [8] Undefined index: username E:\wamp\www\things\things\Home\Controller\IndexJsonController.class.php 第 43 行.
+NOTIC: [8] Undefined index: password E:\wamp\www\things\things\Home\Controller\IndexJsonController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `things_user` WHERE ( username="" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2016-04-11T21:18:01+08:00 ] ::1 /things/indexJson/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+NOTIC: [8] Undefined index: username E:\wamp\www\things\things\Home\Controller\IndexJsonController.class.php 第 43 行.
+NOTIC: [8] Undefined index: password E:\wamp\www\things\things\Home\Controller\IndexJsonController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `things_user` WHERE ( username="" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001237s ]
+
+[ 2016-04-11T21:18:02+08:00 ] ::1 /things/indexJson/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+NOTIC: [8] Undefined index: username E:\wamp\www\things\things\Home\Controller\IndexJsonController.class.php 第 43 行.
+NOTIC: [8] Undefined index: password E:\wamp\www\things\things\Home\Controller\IndexJsonController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `things_user` WHERE ( username="" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001163s ]
+
+[ 2016-04-11T21:18:06+08:00 ] ::1 /things/indexjson/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+ERR: 无法加载控制器:Indexjson
+
+[ 2016-04-11T21:18:08+08:00 ] ::1 /things/indexJson/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+NOTIC: [8] Undefined index: username E:\wamp\www\things\things\Home\Controller\IndexJsonController.class.php 第 43 行.
+NOTIC: [8] Undefined index: password E:\wamp\www\things\things\Home\Controller\IndexJsonController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `things_user` WHERE ( username="" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001198s ]
+
+[ 2016-04-11T21:18:12+08:00 ] ::1 /things/indexJson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+SQL: SHOW COLUMNS FROM `things_message` [ RunTime:0.0051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `things_message` LIMIT 1   [ RunTime:0.0199s ]
+SQL: SELECT * FROM `things_message` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0056s ]
+SQL: SELECT `name` FROM `things_user` WHERE ( username="biao" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `picture` FROM `things_user` WHERE ( username="biao" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `things_user` WHERE ( username="biao" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `picture` FROM `things_user` WHERE ( username="biao" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `things_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `picture` FROM `things_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `things_user` WHERE ( username="biao" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `picture` FROM `things_user` WHERE ( username="biao" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `things_user` WHERE ( username="biao" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `picture` FROM `things_user` WHERE ( username="biao" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `things_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `picture` FROM `things_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `things_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `picture` FROM `things_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `things_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `picture` FROM `things_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `things_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `picture` FROM `things_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `things_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `picture` FROM `things_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001442s ]
+
+[ 2016-04-11T21:18:20+08:00 ] ::1 /things/indexJson/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+SQL: SHOW COLUMNS FROM `things_message` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `things_message` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `things_message` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0056s ]
+SQL: SELECT `name` FROM `things_user` WHERE ( username="biao" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `picture` FROM `things_user` WHERE ( username="biao" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `things_user` WHERE ( username="biao" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `picture` FROM `things_user` WHERE ( username="biao" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `things_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `picture` FROM `things_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `things_user` WHERE ( username="biao" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `picture` FROM `things_user` WHERE ( username="biao" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `things_user` WHERE ( username="biao" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `picture` FROM `things_user` WHERE ( username="biao" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `things_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `picture` FROM `things_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `things_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `picture` FROM `things_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `things_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `picture` FROM `things_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `things_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `picture` FROM `things_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `things_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `picture` FROM `things_user` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001996s ]
+
+[ 2016-04-11T21:18:50+08:00 ] ::1 /things/IndexJson/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `things_user` WHERE ( username="ss" )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001214s ]
+
+[ 2016-04-11T21:18:55+08:00 ] ::1 /things/IndexJson/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `things_user` WHERE ( username="ss" )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001162s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2016-04-11T21:19:00+08:00 ] ::1 /things/IndexJson/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `things_user` WHERE ( username="admin" )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001290s ]
+
+[ 2016-04-11T21:19:06+08:00 ] ::1 /things/IndexJson/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `things_user` WHERE ( username="" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001166s ]
+
+[ 2016-04-11T21:29:56+08:00 ] ::1 /things/CodeJson/tie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001693s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0051s ]
+ERR: 1054:Unknown column 'by7gively07fpdev' in 'where clause'
+ [ SQL语句 ] : UPDATE `things_goods` SET `username`='biao',`name`='手机',`picture`='C盘',`remark`='捡到还给我' WHERE ( url_id=by7gively07fpdev )
+ERR: 1054:Unknown column 'by7gively07fpdev' in 'where clause'
+ [ SQL语句 ] : UPDATE `things_goods` SET `username`='biao',`name`='手机',`picture`='C盘',`remark`='捡到还给我' WHERE ( url_id=by7gively07fpdev )
+
+[ 2016-04-11T21:31:44+08:00 ] ::1 /things/CodeJson/tie
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001559s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0047s ]
+SQL: UPDATE `things_goods` SET `username`='biao',`name`='手机',`picture`='C盘',`remark`='捡到还给我' WHERE ( url_id="by7gively07fpdev" ) [ RunTime:0.0811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001814s ]
+
+[ 2016-04-11T21:53:11+08:00 ] ::1 /things/code/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2016-04-11T22:20:21+08:00 ] ::1 /things/code/show?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2016-04-11T22:20:23+08:00 ] ::1 /things/CodeJson/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeJsonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0054s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id="0" )' at line 1
+ [ SQL语句 ] : SELECT * FROM `things_goods` WHERE ( where id="0" ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id="0" )' at line 1
+ [ SQL语句 ] : SELECT * FROM `things_goods` WHERE ( where id="0" ) 
+
+[ 2016-04-11T22:29:33+08:00 ] ::1 /things/code/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="0" )  [ RunTime:0.0004s ]
+
+[ 2016-04-11T22:29:41+08:00 ] ::1 /things/code/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004045s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="0" )  [ RunTime:0.0003s ]
+
+[ 2016-04-11T22:36:53+08:00 ] ::1 /things/CodeJson/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeJsonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 34 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 24 行.
+NOTIC: [8] Undefined index: show_id E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0043s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where url_id="" )' at line 1
+ [ SQL语句 ] : SELECT * FROM `things_goods` WHERE ( where url_id="" ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where url_id="" )' at line 1
+ [ SQL语句 ] : SELECT * FROM `things_goods` WHERE ( where url_id="" ) 
+
+[ 2016-04-11T22:37:57+08:00 ] ::1 /things/CodeJson/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeJsonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 34 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0042s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where url_id="" )' at line 1
+ [ SQL语句 ] : SELECT * FROM `things_goods` WHERE ( where url_id="" ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where url_id="" )' at line 1
+ [ SQL语句 ] : SELECT * FROM `things_goods` WHERE ( where url_id="" ) 
+
+[ 2016-04-11T22:38:45+08:00 ] ::1 /things/code/show?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 67 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001111s ]
+
+[ 2016-04-11T22:39:24+08:00 ] ::1 /things/code/show?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 67 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2016-04-11T22:39:27+08:00 ] ::1 /things/code/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 67 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="0" )  [ RunTime:0.0003s ]
+
+[ 2016-04-11T22:39:58+08:00 ] ::1 /things/code/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 68 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="0" )  [ RunTime:0.0003s ]
+
+[ 2016-04-11T22:40:05+08:00 ] ::1 /things/code/show?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 68 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2016-04-11T22:40:22+08:00 ] ::1 /things/code/show?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001356s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 68 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001379s ]
+
+[ 2016-04-11T22:40:41+08:00 ] ::1 /things/code/show?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 68 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2016-04-11T22:41:22+08:00 ] ::1 /things/CodeJson/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeJsonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 34 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0044s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where url_id="by7gively07fpdev" )' at line 1
+ [ SQL语句 ] : SELECT * FROM `things_goods` WHERE ( where url_id="by7gively07fpdev" ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where url_id="by7gively07fpdev" )' at line 1
+ [ SQL语句 ] : SELECT * FROM `things_goods` WHERE ( where url_id="by7gively07fpdev" ) 
+
+[ 2016-04-11T22:41:42+08:00 ] ::1 /things/CodeJson/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeJsonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 34 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001592s ]
+
+[ 2016-04-11T22:42:59+08:00 ] ::1 /things/CodeJson/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeJsonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 34 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001292s ]
+
+[ 2016-04-11T22:43:27+08:00 ] ::1 /things/code/show?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 67 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001233s ]
+
+[ 2016-04-11T22:43:28+08:00 ] ::1 /things/CodeJson/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeJsonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 34 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001430s ]
+
+[ 2016-04-11T22:44:05+08:00 ] ::1 /things/code/show?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 67 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2016-04-11T22:44:07+08:00 ] ::1 /things/CodeJson/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeJsonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 34 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001236s ]
+
+[ 2016-04-11T22:50:49+08:00 ] ::1 /things/CodeJson/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001682s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeJsonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 34 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="" )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001224s ]
+
+[ 2016-04-11T22:50:57+08:00 ] ::1 /things/CodeJson/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeJsonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 34 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001257s ]
+
+[ 2016-04-11T22:50:59+08:00 ] ::1 /things/code/show?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 67 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2016-04-11T22:51:01+08:00 ] ::1 /things/CodeJson/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeJsonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 34 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001174s ]
+
+[ 2016-04-11T22:51:10+08:00 ] ::1 /things/CodeJson/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001426s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeJsonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 34 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001229s ]
+
+[ 2016-04-11T22:51:11+08:00 ] ::1 /things/code/show?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002543s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 67 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001124s ]
+
+[ 2016-04-11T22:51:12+08:00 ] ::1 /things/CodeJson/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeJsonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 34 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001225s ]
+
+[ 2016-04-11T22:53:19+08:00 ] ::1 /things/code/show?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002754s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 67 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2016-04-11T22:53:19+08:00 ] ::1 /things/CodeJson/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeJsonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 36 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001216s ]
+
+[ 2016-04-11T22:53:57+08:00 ] ::1 /things/code/show?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 67 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002700s ]
+
+[ 2016-04-11T22:53:58+08:00 ] ::1 /things/CodeJson/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001836s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeJsonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 36 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `things_user` WHERE ( username="biao" )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001502s ]
+
+[ 2016-04-11T22:59:55+08:00 ] ::1 /things/code/show?id=by7gively07fpdev
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 67 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001152s ]
+
+[ 2016-04-11T22:59:56+08:00 ] ::1 /things/CodeJson/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+NOTIC: [2048] Declaration of Home\Controller\CodeJsonController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 44 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\CodeJsonController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `things_goods` WHERE ( url_id="by7gively07fpdev" )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `things_user` WHERE ( username="biao" )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001346s ]
+

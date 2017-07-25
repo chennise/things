@@ -1,0 +1,322 @@
+.userCen-mainBody{
+	width: 1200px;
+    margin: 41px auto;
+    font-family: 'Microsoft Yahei';
+
+	.userCenMB-userInfor {
+	    padding-top: 6px;
+	    position: relative;
+	    padding-bottom: 30px;
+	}
+
+	.publicPart {
+
+		.UCMBtitle{
+
+			margin: 0px 127px 0px 142px;
+
+			h2 {
+			    font-weight: bold;
+			    font-size: 16px;
+			}
+		}
+		.upLoadUserImg {
+		    cursor: pointer;
+		    width: 100px;
+		    height: 100px;
+		    margin-right: 55px;
+		    padding: 2px;
+		    border: 1px solid #000;
+		    position: relative;
+		
+		    .userImg {
+		        width: 100px;
+		        height: 100px;
+		        margin-right: 55px;
+
+
+		    }
+		    .uploadTxt {
+		        display: none;
+		        position: absolute;
+		        left: 0;
+		        top: 0;
+		        background: #000;
+		        opacity: 0.5;
+		        color: #fff;
+		        font-size: 20px;
+		        text-align: center;
+		    }
+
+		    &:hover .uploadTxt {
+			    display: block;
+			    width: 100%;
+			    height: 100%;
+			    line-height: 104px;
+			}
+		}
+		
+		.editUserMes{
+			display: inline-block;
+		    width: 90px;
+		    height: 36px;
+		    line-height: 36px;
+		    text-align: center;
+		    font-size: 16px;
+		    color: #fff;
+		    background: #f8931f;
+
+		    position: absolute;
+		    bottom: 30px;
+		    margin-left: 20px;
+
+		    &:hover{
+		    	background: #AAB585;
+		    }
+		}
+		.userInforList {
+
+			.userInforItem {
+			    display: block;
+			    clear: both;
+			    font-size: 16px;
+			    height: 30px;
+			    line-height: 30px;
+			    overflow: hidden;
+			    color: #333;
+
+			    p {
+				    float: left;
+				    font-size: 16px;
+				}
+				span {
+				    float: left;
+				    min-width: 65px;
+				    font-size: 16px;
+				    text-align: center;
+				}
+			}
+
+
+		}
+
+		.changePW {
+		    margin-bottom: 25px;
+
+		    span {
+		        display: inline-block;
+		        margin-right: 25px;
+		        width: 120px;
+		      
+		        text-align: right;
+		    }
+		    input {
+		        width: 190px;
+		        height: 15px;
+		        padding: 5px;
+		        font-size: 14px;
+		        border: 1px solid #797979;
+		    }
+		}
+	}
+
+	.userCenMB-top {
+	    margin-top: 37px;
+	    margin-bottom: 5px;
+
+	    i.errTip {
+	        margin-top: 5px;
+	        color: red;
+	        text-indent: 145px;
+	        font-size: 12px;
+	        display: none;
+	    }
+	    .conBtn {
+	        margin: 100px 0 0 165px;
+	        display: inline-block;
+	        width: 90px;
+	        height: 36px;
+	        line-height: 36px;
+	        text-align: center;
+	        font-size: 16px;
+	        color: #fff;
+	        background: #f8931f;
+
+	        &:hover{
+			    background: #AAB585;
+	        }
+	    }
+	}	
+
+	.goods{
+		margin-top: 20px;
+		margin-bottom: 30px;
+
+		.UCMBtitle{
+			margin-right: 60px;
+		}		
+	}
+}
+
+.goodsMes{
+	width:660px;
+	// top:105%;
+	.goodsBtnPart{
+		width: 380px;
+		margin:30px auto 0; 
+		a{
+			display: inline-block;
+			width: 170px;
+			height: 50px;
+			color: #fff;
+		    font-size: 20px;
+		    background: #f8931f;
+		    line-height: 50px;
+		    text-align:center;
+
+		    &:hover{
+		    	background: #F892F2;
+		    }
+		}
+	}
+}
+.ctrlBox{
+
+	.goodsMesTxtBox{
+		font-size: 18px;
+		line-height: 30px;
+		.goodsMesTxtTitle{
+			float: left;
+			width: 250px;
+			text-align: right;
+		}
+		.goodsMesTxt{
+			float: left;
+			width: 400px;
+		}
+	}
+
+	.goodsImg{
+		width: 630px;
+		margin:20px auto 0;
+		text-align: center;
+		.goodsImgItem{
+			width: 136px;
+			height:206px;
+			display: inline-block;
+			margin-right: 10px;
+
+			&:last-child{
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+    .mediaBox .mediaList {
+      width: 930px; }
+      .mediaBox .mediaList .mediaItem {
+        width: 260px;
+        background: #eee;
+        height: 140px;
+        padding-top: 3px;
+        cursor: pointer;
+        float: left;
+        margin: 20px 25px; }
+        .mediaBox .mediaList .mediaItem .wrap {
+          background: #eee;
+          height: 124px;
+          width: 241px;
+          padding: 13px 4px 0 7px;
+          margin: 0px auto 0;
+          position: relative; }
+          .mediaBox .mediaList .mediaItem .wrap .imgBox {
+            width: 60px;
+            margin-right: 18px; }
+            .mediaBox .mediaList .mediaItem .wrap .imgBox .mediaImg {
+              width: 48px;
+              height: 48px;
+              margin-left: 6px; }
+            .mediaBox .mediaList .mediaItem .wrap .imgBox .follow {
+              width: 60px;
+              height: 25px;
+              margin-top: 17px;
+              font-size: 12px; }
+              .mediaBox .mediaList .mediaItem .wrap .imgBox .follow a {
+                width: 60px;
+                height: 25px;
+                display: inline-block;
+                line-height: 25px;
+                background: #fff; }
+                .mediaBox .mediaList .mediaItem .wrap .imgBox .follow a .toBeFollow {
+                  display: block; }
+                  .mediaBox .mediaList .mediaItem .wrap .imgBox .follow a .toBeFollow .addIcon {
+                    float: left;
+                    color: #F8931F;
+                    font-size: 21px;
+                    margin: -2px 4px 0 6px; }
+                  .mediaBox .mediaList .mediaItem .wrap .imgBox .follow a .toBeFollow p {
+                    color: #333;
+                    font-size: 12px; }
+                .mediaBox .mediaList .mediaItem .wrap .imgBox .follow a .followed {
+                  display: none;
+                  text-align: center;
+                  color: #999; }
+                  .mediaBox .mediaList .mediaItem .wrap .imgBox .follow a .followed p {
+                    font-size: 12px; }
+          .mediaBox .mediaList .mediaItem .wrap .txtBox {
+            width: 156px; }
+            .mediaBox .mediaList .mediaItem .wrap .txtBox .mediaTitle {
+              font-size: 18px;
+              width: 160px;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis; }
+            .mediaBox .mediaList .mediaItem .wrap .txtBox .mediaNum {
+              margin-top: 10px;
+              font-size: 14px;
+              height: 14px;
+              line-height: 14px;
+              margin-bottom: 10px;
+              width: 160px;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis; }
+            .mediaBox .mediaList .mediaItem .wrap .txtBox .mediaExplain {
+              font-size: 13px;
+              line-height: 16px;
+              height: 64px;
+              text-overflow: -o-ellipsis-lastline;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              display: -webkit-box;
+              -webkit-line-clamp: 4;
+              -webkit-box-orient: vertical; }
+        .mediaBox .mediaList .mediaItem:hover {
+          background: #F8931F !important; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

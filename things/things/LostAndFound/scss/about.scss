@@ -1,0 +1,135 @@
+.aboutBody{
+	.wrap{
+		width: 1000px;
+	}
+
+	.publicPart{
+		margin-bottom: 30px;
+		border-bottom:1px dashed #ccc;
+			padding-bottom: 50px;
+		&:last-child{
+			border-bottom:none;
+		}
+		.BigTitle{
+			width: 100%;
+			text-align: center;
+			margin:40px auto;
+
+			h1{
+				color: #2e2e2e;
+			    font-size: 20px;
+			    height: 36px;
+			    font-weight: bold;
+			    width: 110px;
+			    text-align:center;
+			    display: inline-block;
+			    border-bottom: 5px solid #EC4444;
+			}
+		}
+
+		.titleBox{
+			
+			h1{
+				font-size: 20px;
+			    font-weight: normal;
+			    margin-top: 20px;
+			    color: #000;
+			}
+			p{
+				font-size: 16px;
+			    color: #2e2e2e;
+			}
+		}
+
+		.conpamyIntro-txt{
+			margin-top: 20px;
+
+			p {
+			    text-indent: 2em;
+			    margin-bottom: 20px;
+			    line-height: 30px;
+			    font-size: 14px;
+			    color: #2e2e2e;
+			}
+		}
+		.contactBox{
+			.tab-line{
+
+				.job-left {
+				    float: left;
+				    overflow: hidden;
+				    width: 500px;
+
+				   
+				}
+				.job-right {
+				    float: right;
+				    overflow: hidden;
+				    width: 450px;
+				}
+				 h1 {
+				        font-size: 20px;
+				        margin-top: 20px;
+				        color: #000;
+				        font-weight: bold;
+				    }
+			    h2 {
+				    font-size: 18px;
+				    color: #000;
+				    line-height: 60px;
+				    margin: 0; 
+				    font-weight: bold;
+				}
+				p {
+				    line-height: 30px;
+				    font-size: 16px;
+				    color: #2e2e2e;
+				}
+			}
+		}
+		
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

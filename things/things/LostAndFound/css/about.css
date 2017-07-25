@@ -1,0 +1,60 @@
+.aboutBody .wrap {
+  width: 1000px; }
+.aboutBody .publicPart {
+  margin-bottom: 30px;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 50px; }
+  .aboutBody .publicPart:last-child {
+    border-bottom: none; }
+  .aboutBody .publicPart .BigTitle {
+    width: 100%;
+    text-align: center;
+    margin: 40px auto; }
+    .aboutBody .publicPart .BigTitle h1 {
+      color: #2e2e2e;
+      font-size: 20px;
+      height: 36px;
+      font-weight: bold;
+      width: 110px;
+      text-align: center;
+      display: inline-block;
+      border-bottom: 5px solid #EC4444; }
+  .aboutBody .publicPart .titleBox h1 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 20px;
+    color: #000; }
+  .aboutBody .publicPart .titleBox p {
+    font-size: 16px;
+    color: #2e2e2e; }
+  .aboutBody .publicPart .conpamyIntro-txt {
+    margin-top: 20px; }
+    .aboutBody .publicPart .conpamyIntro-txt p {
+      text-indent: 2em;
+      margin-bottom: 20px;
+      line-height: 30px;
+      font-size: 14px;
+      color: #2e2e2e; }
+  .aboutBody .publicPart .contactBox .tab-line .job-left {
+    float: left;
+    overflow: hidden;
+    width: 500px; }
+  .aboutBody .publicPart .contactBox .tab-line .job-right {
+    float: right;
+    overflow: hidden;
+    width: 450px; }
+  .aboutBody .publicPart .contactBox .tab-line h1 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #000;
+    font-weight: bold; }
+  .aboutBody .publicPart .contactBox .tab-line h2 {
+    font-size: 18px;
+    color: #000;
+    line-height: 60px;
+    margin: 0;
+    font-weight: bold; }
+  .aboutBody .publicPart .contactBox .tab-line p {
+    line-height: 30px;
+    font-size: 16px;
+    color: #2e2e2e; }

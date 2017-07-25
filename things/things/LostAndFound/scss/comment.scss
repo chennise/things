@@ -1,0 +1,267 @@
+.commentBody{
+	// background:#bfe4eb;
+	// background:#bfe4eb url(../img/body_bg.jpg) no-repeat top center;
+	// margin-top:30px;
+
+	.wrap{
+		width: 1000px;
+	    min-height: 680px;
+	    margin: 30px auto;
+	    padding: 16px 0 30px 0;
+	    background-color: rgba(13, 121, 141, 0.25);
+	    border-radius: 5px;
+		position: relative;
+		.leftNav{
+			margin-top: 50px;
+			position: absolute;
+			.leftNavList{
+				width: 150px;
+				text-align: center;
+				// background:#95c0d5;
+				// background-color: rgba(13, 121, 141, 0.25);
+				// border:1px solid #bfe4eb;
+				
+				.leftItem{
+
+					height: 34px;
+					line-height: 34px;
+					width: 150px;
+
+					&:last-child{
+						margin-bottom: -1px;
+					}
+					a{
+						color: #222;
+						display: inline-block;
+						height: 100%;
+						width: 100%;
+
+						&:hover{
+							background:#93cad4;
+						}
+					}
+				}
+				.on{
+					background: #93cad4;
+				}
+			}
+
+
+
+		}
+
+		.rightContent{
+			margin-left: 150px;
+			// background:#fff;
+			// height:300px;
+			width: 600px;
+		    border-radius: 2px;
+
+		    .RChead{
+				height: 38px;
+				line-height: 38px;
+				padding-left: 10px;
+				font-size: 14px;
+				color: #000;
+			    border-radius: 2px;
+				background:#fff;
+				margin-bottom: 10px;
+
+				h1{
+					font-weight: bold;
+				}
+
+		    }
+		    .commentBox{
+				.commentList{
+
+					.commentItem{
+						background:#fff;
+					    padding: 10px 16px 10px 10px;
+					    border-radius: 2px;
+					    margin-bottom: 10px;
+					    &:hover{
+					    	background:#F2F2B5;
+					    }
+						
+						a{	
+							color: #333;
+							font-size: 12px;
+							display: inline-block;
+							.commenterImg{
+								height: 50px;
+								width: 50px;
+								border-radius:50%;
+								overflow: hidden;
+								margin-right: 10px;
+
+								img{
+									width: 50px;
+									height: 50px;
+								}
+							}
+
+							.commentTxt{
+
+								.commenterName{
+									padding: 5px 0;
+									margin-bottom: 10px;
+									font-size: 12px;
+									font-weight:bold;
+								}
+
+								.commenterCont{
+									margin-bottom: 10px;
+								}
+
+								.myComment{
+									padding:5px 16px;
+									margin-bottom: 10px;
+									background-color: #f2f2f5;
+									width: 482px;
+
+									span{
+										color: #808080;
+										font-size: 12px;
+									}
+								}
+							}
+							.from{
+								color: #808080;
+							}
+						}
+
+					}
+				}
+	
+		    }
+
+		    .announceBox{
+
+		    	.announceList{
+
+		    		.announceItem{
+		    			background:#fff;
+		    			border-radius:2px;
+					    padding: 10px 16px 10px 10px;
+					    margin-bottom: 10px;
+						.link{
+							color: #333;
+						}
+					    .announceTop{
+
+					    	margin-top: 5px;
+					    	h2{
+					    		font-size: 14px;
+					    		font-weight: bold;
+					    		float: left;
+					    	}
+
+					    	.answer{
+					    		// float: left;
+					    		clear: both;
+								// margin-left: 10px;
+					    		p{
+
+					    			float: left;
+					    			font-size: 10px;
+					    			color: #808080;
+
+					    			i{
+					    				color: red;
+					    			}
+					    		}
+					    	}
+				    		span{
+				    			float: right;
+				    			font-size: 12px;
+				    			color: #808080;
+				    		}
+					    }
+					    .announceCenter{
+					    	margin-top: 10px;
+
+					    	.goodsMesTxt{
+					    		width: 100%;
+					    		text-indent: 2em;
+					    	}
+					    	.goodsMesImg{
+					    		width: 100%;
+					    		text-align: center;
+								margin-top: 20px;
+					    		img{
+					    			width: 80px;
+					    			height: 80px;
+					    			margin-right: 20px;
+					    			display: inline-block;
+					    		}
+					    	}
+					    }
+					    .announceBottom{
+					    	width: 100%;
+					    	margin-top: 20px;
+					    	a.btn{
+					    		float: right;
+					    		height: 30px;
+					    		width: 80px;
+					    		line-height: 30px;
+					    		text-align: center;
+					    		background:#f8931f;	
+					    		margin-right: 20px;
+					    		color: #fff;
+
+					    		&:hover{
+					    			background: #F892F2;
+					    		}
+					    	}
+					    }
+		    		}
+		    	}
+		    }
+
+		}
+	}
+	.ad{
+		height: 200px;
+		background: #fff;
+		width: 230px;
+		margin-left: 10px;
+		border-radius:2px;
+		margin-bottom: 10px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

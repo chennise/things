@@ -1,0 +1,143 @@
+.commentBody .wrap {
+  width: 1000px;
+  min-height: 680px;
+  margin: 30px auto;
+  padding: 16px 0 30px 0;
+  background-color: rgba(13, 121, 141, 0.25);
+  border-radius: 5px;
+  position: relative; }
+  .commentBody .wrap .leftNav {
+    margin-top: 50px;
+    position: absolute; }
+    .commentBody .wrap .leftNav .leftNavList {
+      width: 150px;
+      text-align: center; }
+      .commentBody .wrap .leftNav .leftNavList .leftItem {
+        height: 34px;
+        line-height: 34px;
+        width: 150px; }
+        .commentBody .wrap .leftNav .leftNavList .leftItem:last-child {
+          margin-bottom: -1px; }
+        .commentBody .wrap .leftNav .leftNavList .leftItem a {
+          color: #222;
+          display: inline-block;
+          height: 100%;
+          width: 100%; }
+          .commentBody .wrap .leftNav .leftNavList .leftItem a:hover {
+            background: #93cad4; }
+      .commentBody .wrap .leftNav .leftNavList .on {
+        background: #93cad4; }
+  .commentBody .wrap .rightContent {
+    margin-left: 150px;
+    width: 600px;
+    border-radius: 2px; }
+    .commentBody .wrap .rightContent .RChead {
+      height: 38px;
+      line-height: 38px;
+      padding-left: 10px;
+      font-size: 14px;
+      color: #000;
+      border-radius: 2px;
+      background: #fff;
+      margin-bottom: 10px; }
+      .commentBody .wrap .rightContent .RChead h1 {
+        font-weight: bold; }
+    .commentBody .wrap .rightContent .commentBox.commentList .commentItem {
+      background: #fff;
+      padding: 10px 16px 10px 10px;
+      border-radius: 2px;
+      margin-bottom: 10px; }
+      .commentBody .wrap .rightContent .commentBox.commentList .commentItem:hover {
+        background: #F2F2B5; }
+      .commentBody .wrap .rightContent .commentBox.commentList .commentItem a {
+        color: #333;
+        font-size: 12px;
+        display: inline-block; }
+        .commentBody .wrap .rightContent .commentBox.commentList .commentItem a .commenterImg {
+          height: 50px;
+          width: 50px;
+          border-radius: 50%;
+          overflow: hidden;
+          margin-right: 10px; }
+          .commentBody .wrap .rightContent .commentBox.commentList .commentItem a .commenterImg img {
+            width: 50px;
+            height: 50px; }
+        .commentBody .wrap .rightContent .commentBox.commentList .commentItem a .commentTxt .commenterName {
+          padding: 5px 0;
+          margin-bottom: 10px;
+          font-size: 12px;
+          font-weight: bold; }
+        .commentBody .wrap .rightContent .commentBox.commentList .commentItem a .commentTxt .commenterCont {
+          margin-bottom: 10px; }
+        .commentBody .wrap .rightContent .commentBox.commentList .commentItem a .commentTxt .myComment {
+          padding: 5px 16px;
+          margin-bottom: 10px;
+          background-color: #f2f2f5;
+          width: 482px; }
+          .commentBody .wrap .rightContent .commentBox.commentList .commentItem a .commentTxt .myComment span {
+            color: #808080;
+            font-size: 12px; }
+        .commentBody .wrap .rightContent .commentBox.commentList .commentItem a .from {
+          color: #808080; }
+    .commentBody .wrap .rightContent .announceBox.announceList .announceItem {
+      background: #fff;
+      border-radius: 2px;
+      padding: 10px 16px 10px 10px;
+      margin-bottom: 10px; }
+      .commentBody .wrap .rightContent .announceBox.announceList .announceItem .link {
+        color: #333; }
+      .commentBody .wrap .rightContent .announceBox.announceList .announceItem .announceTop {
+        margin-top: 5px; }
+        .commentBody .wrap .rightContent .announceBox.announceList .announceItem .announceTop h2 {
+          font-size: 14px;
+          font-weight: bold;
+          float: left; }
+        .commentBody .wrap .rightContent .announceBox.announceList .announceItem .announceTop .answer {
+          clear: both; }
+          .commentBody .wrap .rightContent .announceBox.announceList .announceItem .announceTop .answer p {
+            float: left;
+            font-size: 10px;
+            color: #808080; }
+            .commentBody .wrap .rightContent .announceBox.announceList .announceItem .announceTop .answer p i {
+              color: red; }
+        .commentBody .wrap .rightContent .announceBox.announceList .announceItem .announceTop span {
+          float: right;
+          font-size: 12px;
+          color: #808080; }
+      .commentBody .wrap .rightContent .announceBox.announceList .announceItem .announceCenter {
+        margin-top: 10px; }
+        .commentBody .wrap .rightContent .announceBox.announceList .announceItem .announceCenter .goodsMesTxt {
+          width: 100%;
+          text-indent: 2em; }
+        .commentBody .wrap .rightContent .announceBox.announceList .announceItem .announceCenter .goodsMesImg {
+          width: 100%;
+          text-align: center;
+          margin-top: 20px; }
+          .commentBody .wrap .rightContent .announceBox.announceList .announceItem .announceCenter .goodsMesImg img {
+            width: 80px;
+            height: 80px;
+            margin-right: 20px;
+            display: inline-block; }
+      .commentBody .wrap .rightContent .announceBox.announceList .announceItem .announceBottom {
+        width: 100%;
+        margin-top: 20px; }
+        .commentBody .wrap .rightContent .announceBox.announceList .announceItem .announceBottom a.btn {
+          float: right;
+          height: 30px;
+          width: 80px;
+          line-height: 30px;
+          text-align: center;
+          background: #f8931f;
+          margin-right: 20px;
+          color: #fff; }
+          .commentBody .wrap .rightContent .announceBox.announceList .announceItem .announceBottom a.btn:hover {
+            background: #F892F2; }
+.commentBody .ad {
+  height: 200px;
+  background: #fff;
+  width: 230px;
+  margin-left: 10px;
+  border-radius: 2px;
+  margin-bottom: 10px; }
+
+/*# sourceMappingURL=comment.css.map */

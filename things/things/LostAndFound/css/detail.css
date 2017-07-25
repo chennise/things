@@ -1,0 +1,148 @@
+.detail {
+  margin-top: 40px;
+  margin-bottom: 50px; }
+  .detail .wrap {
+    border-top: 1px solid #C2D5E3;
+    border-right: 1px solid #C2D5E3; }
+    .detail .wrap .mesTop {
+      width: 100%;
+      min-height: 36px; }
+      .detail .wrap .mesTop .see {
+        width: 80px;
+        border-right: 1px solid #C2D5E3;
+        text-align: right;
+        padding-right: 10px; }
+      .detail .wrap .mesTop .react {
+        padding-left: 10px;
+        width: 75px; }
+      .detail .wrap .mesTop .leftArea {
+        height: 36px; }
+      .detail .wrap .mesTop .seeAndRea {
+        height: 20px;
+        line-height: 20px;
+        font-size: 14px;
+        margin-top: 8px; }
+        .detail .wrap .mesTop .seeAndRea p {
+          float: left;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+          .detail .wrap .mesTop .seeAndRea p span {
+            color: #F60;
+            padding-left: 5px; }
+    .detail .wrap .bb3 {
+      height: 3px;
+      width: 100%;
+      background: #c2d5e3;
+      border: none;
+      margin: 0;
+      padding: 0; }
+    .detail .wrap .leftArea {
+      background: #E5EDF2;
+      width: 180px;
+      border-left: 1px solid #C2D5E3;
+      border-bottom: 1px solid #C2D5E3; }
+      .detail .wrap .leftArea .userName {
+        height: 16px;
+        width: 160px;
+        text-align: center;
+        line-height: 16px;
+        padding: 10px;
+        border-bottom: 1px dashed #CDCDCD;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+        .detail .wrap .leftArea .userName a {
+          color: #666; }
+      .detail .wrap .leftArea .userImg {
+        height: 120px;
+        width: 120px;
+        padding: 10px;
+        background: #fff;
+        border-radius: 5px;
+        margin: 20px; }
+        .detail .wrap .leftArea .userImg img {
+          height: 120px;
+          width: 120px; }
+      .detail .wrap .leftArea .userMesBox {
+        padding-bottom: 30px; }
+        .detail .wrap .leftArea .userMesBox p {
+          padding: 5px;
+          line-height: 14px; }
+    .detail .wrap .rightArea {
+      width: 1018px;
+      border-left: 1px solid #C2D5E3;
+      border-bottom: 1px solid #C2D5E3;
+      position: relative; }
+      .detail .wrap .rightArea .mesTitle {
+        height: 16px;
+        line-height: 16px;
+        padding: 10px; }
+        .detail .wrap .rightArea .mesTitle p {
+          float: left;
+          font-size: 16px;
+          font-weight: bold;
+          width: 700px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+        .detail .wrap .rightArea .mesTitle span {
+          float: right;
+          font-size: 12px;
+          color: #ddd; }
+      .detail .wrap .rightArea .goodsMesTxtBoxWrap {
+        padding: 30px; }
+        .detail .wrap .rightArea .goodsMesTxtBoxWrap .goodsMesTxtBox {
+          padding: 5px;
+          line-height: 30px;
+          border-bottom: 1px solid #C2D5E3; }
+          .detail .wrap .rightArea .goodsMesTxtBoxWrap .goodsMesTxtBox:last-child {
+            border-bottom: 0; }
+          .detail .wrap .rightArea .goodsMesTxtBoxWrap .goodsMesTxtBox .goodsMesTxtTitle {
+            float: left;
+            width: 160px; }
+          .detail .wrap .rightArea .goodsMesTxtBoxWrap .goodsMesTxtBox .goodsMesTxt {
+            max-width: 780px;
+            float: left; }
+          .detail .wrap .rightArea .goodsMesTxtBoxWrap .goodsMesTxtBox .goodsImgList {
+            margin-top: 20px;
+            width: 780px; }
+            .detail .wrap .rightArea .goodsMesTxtBoxWrap .goodsMesTxtBox .goodsImgList img {
+              display: inline-block;
+              margin-right: 20px; }
+      .detail .wrap .rightArea .commentBox {
+        padding: 50px 30px; }
+      .detail .wrap .rightArea .commentTime {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 12px;
+        color: #ccc; }
+  .detail .mt50 {
+    margin-top: 50px; }
+  .detail .mesBottom .minH240 {
+    min-height: 240px; }
+  .detail .mesBottom .commentArea .comInputArea {
+    width: 800px;
+    height: 130px;
+    margin: 30px 109px 10px;
+    resize: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px; }
+  .detail .mesBottom .commentArea .comInputCon {
+    height: 30px;
+    width: 80px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    background: #f8931f;
+    color: #FFF;
+    margin-left: 109px; }
+    .detail .mesBottom .commentArea .comInputCon:hover {
+      background: #F892F2; }
+
+.minH335 {
+  min-height: 335px; }
+
+/*# sourceMappingURL=detail.css.map */

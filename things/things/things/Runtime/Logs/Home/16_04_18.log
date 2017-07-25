@@ -1,0 +1,328 @@
+[ 2016-04-18T16:38:21+08:00 ] ::1 /things/message/my_swap
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.056829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.034333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034592s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.032840s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.033166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.157984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.158241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.078425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.078696s ]
+
+[ 2016-04-18T16:38:29+08:00 ] ::1 /things/MessageJson/my_swap
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\MessageJsonController.class.php 第 102 行.
+
+[ 2016-04-18T16:38:44+08:00 ] ::1 /things/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2016-04-18T16:38:50+08:00 ] ::1 /things/IndexJson/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0735s ]
+SQL: SELECT * FROM `things_user` WHERE ( username="biao" )  [ RunTime:0.0336s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\IndexJsonController.class.php 第 54 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002138s ]
+
+[ 2016-04-18T16:38:54+08:00 ] ::1 /things/MessageJson/my_swap
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\MessageJsonController.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `things_swap` [ RunTime:0.0650s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0575s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `things_swap` WHERE ( swaper="biao" )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `things_user` WHERE ( username="admin" )  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `things_goods` WHERE ( id=1 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `things_user` WHERE ( username="biao" )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `things_goods` WHERE ( id=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `things_user` WHERE ( username="admin" )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `things_goods` WHERE ( id=1 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002085s ]
+
+[ 2016-04-18T16:40:26+08:00 ] ::1 /things/MessageJson/my_swap
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\MessageJsonController.class.php 第 102 行.
+SQL: SHOW COLUMNS FROM `things_swap` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `things_swap` WHERE ( swaper="biao" )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `things_user` WHERE ( username="admin" )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `things_goods` WHERE ( id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `things_user` WHERE ( username="biao" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `things_goods` WHERE ( id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `things_user` WHERE ( username="admin" )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `things_goods` WHERE ( id=1 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001070s ]
+
+[ 2016-04-18T16:41:57+08:00 ] ::1 /things/message/who_swap
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2016-04-18T16:41:59+08:00 ] ::1 /things/MessageJson/who_swap
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\MessageJsonController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `things_swap` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `things_goods` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `things_swap` WHERE ( master="biao" )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `things_user` WHERE ( username="biao" )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `things_goods` WHERE ( id=1 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2016-04-18T18:10:28+08:00 ] ::1 /things/me/changeme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001742s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\MeController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001510s ]
+
+[ 2016-04-18T18:11:07+08:00 ] ::1 /things/MeJson/changeme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001831s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\MeJsonController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0042s ]
+SQL: UPDATE `things_user` SET `name`='标',`picture`='/things/Public/pic/48017',`phone`='110',`qq`='',`wechat`='',`email`='' WHERE ( username="biao" ) [ RunTime:0.0610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002094s ]
+
+[ 2016-04-18T18:15:25+08:00 ] ::1 /things/meJson/changeme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\MeJsonController.class.php 第 44 行.
+NOTIC: [8] Undefined index: pic E:\wamp\www\things\things\Home\Controller\MeJsonController.class.php 第 48 行.
+NOTIC: [8] Undefined index: pic E:\wamp\www\things\things\Home\Controller\MeJsonController.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0039s ]
+SQL: UPDATE `things_user` SET `name`='',`picture`='/things/Public/pic/62082',`phone`='',`qq`='',`wechat`='',`email`='' WHERE ( username="biao" ) [ RunTime:0.0333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001249s ]
+
+[ 2016-04-18T18:21:04+08:00 ] ::1 /things/me/changeme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\MeController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2016-04-18T18:21:07+08:00 ] ::1 /things/MeJson/changeme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\MeJsonController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0041s ]
+SQL: UPDATE `things_user` SET `name`='我',`picture`='/things/Public/pic/56165',`phone`='',`qq`='',`wechat`='',`email`='' WHERE ( username="biao" ) [ RunTime:0.0579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001147s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001253s ]
+
+[ 2016-04-18T18:33:08+08:00 ] ::1 /things/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001132s ]
+
+[ 2016-04-18T18:33:14+08:00 ] ::1 /things/IndexJson/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `things_user` WHERE ( username="biao" )  [ RunTime:0.0005s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\IndexJsonController.class.php 第 54 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001553s ]
+
+[ 2016-04-18T18:33:21+08:00 ] ::1 /things/me/changeme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002369s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\MeController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2016-04-18T18:33:24+08:00 ] ::1 /things/MeJson/changeme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\MeJsonController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0042s ]
+SQL: UPDATE `things_user` SET `name`='我',`phone`='',`qq`='',`wechat`='',`email`='' WHERE ( username="biao" ) [ RunTime:0.0839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001387s ]
+
+[ 2016-04-18T18:33:31+08:00 ] ::1 /things/MeJson/changeme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\MeJsonController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0047s ]
+SQL: UPDATE `things_user` SET `name`='我我',`phone`='',`qq`='',`wechat`='',`email`='' WHERE ( username="biao" ) [ RunTime:0.1113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001360s ]
+
+[ 2016-04-18T18:33:33+08:00 ] ::1 /things/MeJson/changeme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\wamp\www\things\things\Home\Controller\MeJsonController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `things_user` [ RunTime:0.0049s ]
+SQL: UPDATE `things_user` SET `name`='我我',`phone`='',`qq`='',`wechat`='',`email`='' WHERE ( username="biao" ) [ RunTime:0.0477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001319s ]
+

@@ -1,0 +1,223 @@
+.mainBody{
+	margin-top:30px;
+	margin-bottom:50px;
+	.findSTH{
+		width: 585px;
+		border:1px solid #557d97;
+		box-shadow:2px 2px 2px #898989;
+		.findSthTitle{
+			padding-left:5px; 
+			background:#3a8ab5;
+			height:30px;
+			line-height: 30px;
+			color: #fff;
+
+			h2{
+				width: 520px;
+				float: left;
+				white-space: nowrap;
+			    overflow: hidden;
+			    text-overflow: ellipsis;
+			}
+			a{
+				float: left;
+				width:50px;
+				text-align:center;
+
+				&:hover{
+					color: blue;
+					text-decoration: underline;
+				}
+			}
+		}
+
+		.findSthList{
+
+			.findSthItem{
+				height:25px;
+				line-height: 25px;
+				border-bottom:dotted 1px #000;
+				position: relative;
+				
+				a{
+					color: #222;
+					display: inline-block;
+					width: 100%;
+					height: 100%;
+					&:hover{
+						color:#0000f0;
+					}
+				}
+				&:last-child{
+					border-bottom:none;
+				}
+					
+				.findSthItemTxt{
+					float: left;
+					padding-left:5px;
+					white-space: nowrap;
+				    overflow: hidden;
+				    text-overflow: ellipsis; 
+				    max-width: 450px;
+
+				}
+
+				.findSthItemTime{
+					float: right;
+					margin-right: 36px;
+				}
+				.findIcon{
+					width: 20px;
+					height: 20px;
+					// margin: 2px 5px 0 5px;
+					position: absolute;
+					right: 5px;
+					top: 2px;
+					font-size: 12px;
+					text-align: center;
+					line-height: 20px;
+					color:yellow;	
+					background:red;
+					font-style: normal;
+					border-radius:50%;
+
+				}
+			}
+		}
+	}
+	
+
+	.findGoodswrap{
+		width: 1000px;
+		margin: 0 auto;
+
+		.findGoodsBT{
+			
+			height: 30px;
+			line-height: 30px;
+			width: 100%;
+			text-align: center;
+			margin-bottom: 50px;
+			span{
+				height: 1px;
+				background:#898989;
+				float: left;
+				display: inline-block;
+				width: 400px;
+				margin-top: 14px;
+			}
+			h1{
+				float: left;
+				display: inline-block;
+				width: 200px;
+				font-size: 30px;
+			}
+
+		}	
+
+		.findGoodsList{
+
+			border-radius:10px;
+			border: 1px solid #898989;
+			padding:10px;
+			.findGoodsItem{
+				background:#eee;
+				box-shadow: 2px 2px 2px #898989;
+				margin-bottom: 20px;
+				border-radius:10px;
+				position: relative;
+
+				&:hover{
+					background:#4395ff;
+				}
+				a{
+					color: #222;
+					width: 100%;
+					height:100%;
+					display: inline-block;
+				}
+				.answer{
+					position: absolute;
+					bottom: 10px;
+					right: 20px;
+					font-size: 12px;
+
+					p{
+						// float: left;
+						display: inline-block;
+
+						i{
+							color:red;
+						}
+
+					}
+				}
+				.userImg{	
+					width: 80px;
+					height: 80px;
+					padding:5px;
+					border: 1px solid #fff;
+					background:#FFF;	
+					margin: 10px 30px 10px 10px;;
+					border-radius: 10px;
+					position: relative;
+					.userImgTouxiang{
+						width: 80px;
+						height: 80px;
+					}
+					.rewardImg{
+						transform:rotate(-30deg);
+						position: absolute;
+						top: -40px;
+						left: -40px;
+					}
+				}
+
+				.findGoodsMes{
+					margin-top: 10px;
+					padding-bottom: 20px;
+
+					.findGoodsTltle{
+						width: 830px;		
+						margin-bottom: 10px;	
+
+						p{
+							font-size: 16px;
+							font-weight: bold;
+							float: left;
+							width: 720px;
+							white-space: nowrap;
+						    overflow: hidden;
+						    text-overflow: ellipsis;
+						}
+						span{
+							float: right;
+							width: 100px;
+							text-align: right;
+							font-size: 14px;
+							color: #333;
+						}
+					}
+
+					.goodsDesc{
+						width: 830px;
+						padding:0 5px;
+						text-indent: 2em;
+						margin-bottom: 15px;
+					}
+
+					.goodsImg{
+						width: 830px;
+
+						img{
+							float: left;
+							width: 50px;
+							height: 50px;
+							margin-right: 20px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
